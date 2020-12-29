@@ -7,6 +7,16 @@
         "orchestra/testbench": "^6.7",
         "illuminate/support": "^8.20"
     },
+    "autoload": {
+        "psr-4": {
+            "Slack\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slack\\Tests\\": "./tests"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
@@ -14,5 +24,9 @@
             "email": "shaikhsharik709@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
 }
