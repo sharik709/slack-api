@@ -1,0 +1,18 @@
+{
+    "name": "sharik709/slack-api",
+    "description": "Wrapper for slack api",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.7",
+        "illuminate/support": "^8.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sharik Shaikh",
+            "email": "shaikhsharik709@gmail.com"
+        }
+    ],
+    "require": {}
+}
